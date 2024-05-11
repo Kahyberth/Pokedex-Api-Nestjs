@@ -14,6 +14,16 @@ This project was done in order to strengthen the knowledge acquired while studyi
 $ pnpm install
 ```
 
+
+## Up database
+
+```bash
+# Docker
+$ docker-compose up -d
+```
+
+
+
 ## Running the app
 
 ```bash
@@ -38,6 +48,10 @@ $ pnpm run test:e2e
 
 # test coverage
 $ pnpm run test:cov
+
+
 ```
+
+
 
 
