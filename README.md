@@ -17,21 +17,19 @@ $ pnpm install
 $ npm i -g @nestjs/cli
 ```
 
+## Clone the .env.template file and rename the copy to .env
+
+```
+.env.template
+
+.env <--
+```
 
 ## Up database
 
 ```bash
 # Docker
 $ docker-compose up -d
-```
-
-
-## Rebuild database
-
-``` bash
-# Seed
-localhost:3000/api/v2/seed
-
 ```
 
 ## Running the app
@@ -46,6 +44,16 @@ $ pnpm run start:dev
 # production mode
 $ pnpm run start:prod
 ```
+
+
+## Rebuild database
+
+``` bash
+# Seed
+localhost:3000/api/v2/seed
+
+```
+
 
 ## Test
 
