@@ -12,6 +12,9 @@ This project was done in order to strengthen the knowledge acquired while studyi
 
 ```bash
 $ pnpm install
+
+#Nest CLI Installation
+$ npm i -g @nestjs/cli
 ```
 
 
@@ -23,6 +26,13 @@ $ docker-compose up -d
 ```
 
 
+## Rebuild database
+
+``` bash
+# Seed
+localhost:3000/api/v2/seed
+
+```
 
 ## Running the app
 
