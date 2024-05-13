@@ -55,6 +55,17 @@ localhost:3000/api/v2/seed
 ```
 
 
+## Production Build
+
+1. Create file ``.env.prod``
+2. Fill environment variable
+3. Create the new image 
+
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
+
 ## Test
 
 ```bash
@@ -70,6 +81,16 @@ $ pnpm run test:cov
 
 ```
 
+
+
+## Used Stack
+
+1. ``MongoDB``
+2. ``Nestjs``
+```
+https://docs.nestjs.com/
+https://www.mongodb.com/
+```
 
 
 
